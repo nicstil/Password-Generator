@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #1c1c1c;
+  font-size: 10px;
+}
+
+#container1 {
+  background: #1f2937;
+  max-width: 550px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 50px 60px;
+  border-radius: 7px;
+  border: 5px solid white;
+}
+
+h1 {
+  font-family: "Karla", sans-serif;
+  font-size: 4em;
+  font-weight: 800;
+  color: #4adf86;
+}
+
+.headText {
+  color: white;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 2em;
+  color: #d5d4d8;
+}
+
+#pswBtn,
+#copyPsw1,
+#copyPsw2 {
+  background: #10b981;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6em;
+  font-weight: medium;
+  color: #ffffff;
+  padding: 15px 10px;
+  border-radius: 7px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+hr {
+  border-top: 1px solid #2f3e53;
+  margin-bottom: 30px;
+}
+
+#pswGen1,
+#pswGen2 {
+  color: #55f991;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 1.6em;
+  width: 50%;
+  text-align: center;
+  background: #273549;
+  padding: 10px 0 10px 0;
+  border-radius: 7px;
+}
+
+#pswArea {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.pswLength {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6em;
+  font-weight: medium;
+  color: #ffffff;
+  padding-right: 2em;
+}
+
+#userInput {
+  padding-top: 2em;
+}
+
+#copyBtns {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.copy {
+  background: grey;
+}
